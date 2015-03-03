@@ -5,3 +5,4 @@ elif temp > 70: # this is almost exactly like the the if but it will only run if
         print "Wear shorts"
 elif temp < 70: 
         print "Wear long pants"
+ 
