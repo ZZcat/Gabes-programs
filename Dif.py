@@ -1,9 +1,9 @@
 def hello(): ## Whatever is in here is set as hello()
     print "Hello"
- 
+
 def area(w, h): ## What ever is here is set as area(w, h)
     return w * h ## return will print strings and ints. Here we print w X h
- 
+
 def print_welcome(name): ## here we print and make but not set name
     print "Welcome", name
 

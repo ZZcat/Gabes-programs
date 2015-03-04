@@ -1,17 +1,16 @@
- 
 def print_options():
     print "Options:"
     print " 'p' print options"
     print " 'c' convert from celsius"
     print " 'f' convert from fahrenheit"
     print " 'q' quit the program"
- 
+
 def celsius_to_fahrenheit(c_temp):
-    return 9.0 / 5.0 * c_temp + 32 
- 
+    return 9.0 / 5.0 * c_temp + 32
+
 def fahrenheit_to_celsius(f_temp):
     return (f_temp - 32.0) * 5.0 / 9.0
- 
+
 choice = "p"
 while choice != "q":
     if choice == "c":
@@ -23,6 +22,5 @@ while choice != "q":
     elif choice == "p":
         print_options()
     choice = raw_input("option: ")
-    
+
 ## Gabe I want you to tell me how this program works and e-mail me the file with the info on how it works
-    
