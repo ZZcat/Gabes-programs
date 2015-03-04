@@ -1,3 +1,7 @@
+# I wouldn't use true for a variable, its confusing as boolean True already exists
+# https://docs.python.org/2/library/constants.html
+# https://docs.python.org/2/library/functions.html#bool
+
 true = 0
 while true == 0:
         try:
@@ -25,7 +29,7 @@ while true == 0:
                         print "You're an adult."
                 else :
                         true = 1
-                        print" You'rer old."
+                        print" You're old."
         except:
                 print"You can only enter numbers!!!"
 
