@@ -4,4 +4,4 @@ try:
   sum = x + y
   print x , "+" , y , "=" , sum
 except:
-  print"You must enter a number or die"
+  print "You must enter a number or die"
